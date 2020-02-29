@@ -5,12 +5,13 @@ body {
 }
 
 header {
+	transition: 0.9s;
     font-size: 4em;
     color: #45d1ae;
     font-weight: bold;
     text-align: center;
     cursor: default;
-    transition: 0.9s;
+    
 }
 
 header:hover {
@@ -18,6 +19,7 @@ header:hover {
 }
 
 a {
+	transition: 0.4s;
     display: block;
     background-color: #d7fff5;
     margin-top: 2vh;
@@ -29,7 +31,7 @@ a {
     color: #2c80ff;
     font-weight: 600;
     padding-left: 4vw;
-    transition: 0.4s;
+    
 }
 
 a:hover {
